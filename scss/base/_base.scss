@@ -1,0 +1,506 @@
+/*===================================
+  01. Google font
+====================================== */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+
+/*===================================
+  02. Typography
+====================================== */
+html {
+    font-size: 100%;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.45em;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-weight: 400;
+    background-color: white;
+    color: #6f6f6f;
+}
+::-moz-selection {
+    color: white;
+    background: #1981EA;
+}
+
+::selection {
+    color: white;
+    background: #1981EA;
+}
+p {
+    margin-bottom: 25px;
+    line-height: 1.75em;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+small {
+    font-size: 0.8em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    clear: both;
+    line-height: 1.2em;
+    color: #303030;
+}
+h1, h2, h3, h4 {
+    font-weight: 500;
+}
+h1 {
+    font-size: 2.827em;
+    margin: 0 0 15px;
+}
+h2 {
+    font-size: 1.999em;
+}
+h3 {
+    font-size: 1.414em;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+    font-size: 0.85em;
+}
+
+/* [ 2.1 Elements ] */
+img {
+    max-width: 100%;
+}
+a {
+    color: inherit;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+a:hover, 
+a:focus, 
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+a:focus {
+    outline: none;
+    color: inherit;
+}
+a:hover, 
+a:active {
+    outline: 0;
+    text-decoration: none;
+}
+button:focus {
+    outline: 0px dotted;
+}
+i {
+    color: inherit;
+}
+figure {
+    margin: 0;
+}
+blockquote {
+    border-left: 3px solid #c39d6d;
+}
+blockquote p {
+    font-size: 16px;
+    font-weight: 400;
+}
+cite {
+    color: #c39d6d;
+    font-size: 12px;
+}
+.bg_white {
+    background-color: #fff;
+}
+.bg_gray {
+    background-color: #F7F7F7;
+}
+.full-size {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.bg_image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pos-abs {
+    position: absolute;
+}
+.bg-color-black {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.page_cover {
+    height: 100vh;
+}
+.bg_overlay {
+    position: relative;
+    &:before {
+        background-color: rgba(0, 0, 0, 0.65);
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+    }
+}
+.shadow__black {
+    box-shadow: 0 0 26px rgba(0, 0, 0, 0.04);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+/* [ 2.2 White Space ] */
+.mtb-110{
+    margin: 110px 0;
+}
+.mtb-100{
+    margin: 100px 0;
+}
+.mtb-90{
+    margin: 90px 0;
+}
+.mtb-80{
+    margin: 80px 0;
+}
+.mtb-70{
+    margin: 70px 0;
+}
+.mtb-60{
+    margin: 60px 0;
+}
+.mtb-50{
+    margin: 50px 0;
+}
+.mt-110{
+    margin: 110px 0 0;
+}
+.mt-100{
+    margin: 100px 0 0;
+}
+.mt-90{
+    margin: 90px 0 0;
+}
+.mt-80{
+    margin: 80px 0 0;
+}
+.mt-70{
+    margin: 70px 0 0;
+}
+.mt-60{
+    margin: 60px 0 0;
+}
+.mt-50{
+    margin: 50px 0 0;
+}
+.mt-40{
+    margin: 40px 0 0;
+}
+.mt-30{
+    margin: 30px 0 0;
+}
+.mb-110{
+    margin-bottom: 110px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+.mb-90{
+    margin-bottom: 90px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.ptb-110{
+    padding: 110px 0;
+}
+.ptb-100{
+    padding: 100px 0;
+}
+.ptb-90{
+    padding: 90px 0;
+}
+.ptb-80{
+    padding: 80px 0;
+}
+.ptb-70{
+    padding: 70px 0;
+}
+.ptb-60{
+    padding: 60px 0;
+}
+.ptb-50{
+    padding: 50px 0;
+}
+.pt-110{
+    padding: 110px 0 0;
+}
+.pt-100{
+    padding: 100px 0 0;
+}
+.pt-90{
+    padding: 90px 0 0;
+}
+.pt-80{
+    padding: 80px 0 0;
+}
+.pt-70{
+    padding: 70px 0 0;
+}
+.pt-60{
+    padding: 60px 0 0;
+}
+.pt-50{
+    padding: 50px 0 0;
+}
+.pt-40{
+    padding: 40px 0 0;
+}
+.pt-30{
+    padding: 30px 0 0;
+}
+.pb-110{
+    padding-bottom: 110px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.pb-90{
+    padding-bottom: 90px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.pr-15 {
+    padding-right: 15px !important;
+}
+
+
+/* [ 2.3 Pealoader Css ] */
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 99999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    &:before,
+    &:after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: calc(50% + 1px);
+        height: 100%;
+        z-index: -1;
+        background-color: #000;
+        -webkit-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+    }
+    &:after{
+        left: auto;
+        right: 0;
+    }
+    > .loader_line {
+        margin: auto;
+        width: 1px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+        -webkit-transition: all 0.8s ease 0s;
+        transition: all 0.8s ease 0s;
+        &:before{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 1px;
+            height: 0%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            background-color: #fff;
+            -webkit-animation: lineheight 1000ms ease-in-out 0s forwards;
+            animation: lineheight 1000ms ease-in-out 0s forwards;
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 1px;
+            height: 100%;
+            background-color: #777;
+            -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+            -webkit-animation: lineround 1200ms linear 0s infinite;
+            animation: lineround 1200ms linear 0s infinite;
+            -webkit-animation-delay: 2000ms;
+                    animation-delay: 2000ms;
+        }
+    }
+}
+
+@-webkit-keyframes lineheight{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+@keyframes lineheight{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+@-webkit-keyframes lineround{
+    0%{
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+    100%{
+        -webkit-transform: translateY(200%);
+        transform: translateY(200%);
+    }
+}
+
+@keyframes lineround{
+    0%{
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+    100%{
+        -webkit-transform: translateY(200%);
+        transform: translateY(200%);
+    }
+}
+
+/*hiding all*/
+.preloaded .loader_line:after{
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.preloaded  .loader_line{
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    height: 100%!important;
+}
+.preloaded:before,
+.preloaded:after{
+    -webkit-animation: preloadedzero 300ms ease-in-out 500ms forwards;
+    animation: preloadedzero 300ms ease-in-out 500ms forwards;
+}
+@-webkit-keyframes preloadedzero{
+    0%{
+        width: 50%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+@keyframes preloadedzero{
+    0%{
+        width: 50%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .ptb-110 {
+        padding: 100px 0;
+    }
+    .pt-110 {
+        padding-top: 100px;
+    }
+    .pb-70 {
+        padding-bottom: 50px;
+    }
+    .ptb-80 {
+        padding: 80px 0 70px;
+    }
+    .pr-15 {
+        padding-right: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ptb-110 {
+        padding: 80px 0;
+    }
+    .pt-110 {
+        padding-top: 80px;
+    }
+    .ptb-100 {
+        padding: 70px 0;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+    .mt-90 {
+        margin: 85px 0 0;
+    }
+}
+    
+@media only screen and (max-width: 575px) {
+    .container {
+        width: 420px;
+    }
+}
+@media only screen and (max-width: 450px) { 
+    .container {
+        width: 100%;
+    }
+    p {
+        line-height: 1.65em;
+    }
+}

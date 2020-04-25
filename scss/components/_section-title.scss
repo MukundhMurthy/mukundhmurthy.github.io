@@ -1,0 +1,97 @@
+/*------------------------------------------------------------------
+    03 Section Title
+*/
+
+.section_title_area {
+    margin-top: -10px;
+    > h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        text-transform: capitalize;
+    }
+    > p {
+        color: #636363;
+        letter-spacing: 0.2em;
+        text-transform: capitalize;
+        > span {
+            display: inline-block;
+            position: relative;
+            padding: 0 15px;
+            &:before,
+            &:after {
+                position: absolute;
+                content: "";
+                height: 1px;
+                width: 50px;
+                background-color: #ababab;
+                top: 11px;
+            }
+            &:before {
+                left: -50px;
+            }
+            &:after {
+                right: -50px;
+            }
+        }
+    }
+}
+.headline {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .section_title_area {
+        > h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        > p {
+            letter-spacing: 0.1em;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section_title_area {
+        > h2 {
+            font-size: 30px;
+        }
+        > p {
+            font-size: 12px;
+            letter-spacing: 0.05em;
+            > span {
+                padding: 0 10px;
+                &:before, 
+                &:after {
+                    width: 30px;
+                }
+                &:after {
+                    right: -30px;
+                }
+                &:before {
+                    left: -30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section_title_area > h2 {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+    .headline {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 450px) { 
+    .section_title_area > h2 {
+        font-size: 24px;
+    }
+}

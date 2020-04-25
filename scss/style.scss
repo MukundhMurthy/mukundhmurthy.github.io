@@ -1,0 +1,86 @@
+/*********************************************************************
+
+    Template Name: Pitar
+    Template URI: https://themeforest.net/user/codextree
+    Description: A 'Pitar – Personal Portfolio Html5 Template' is perfect if you like a clean and modern design. This theme is ideal for Agency, Freelancer, Portfolio, and those who need an easy, attractive and effective way to share their work with clients.
+    Author: codextree
+    Version: 1.0
+    Author URI: http://riyad.ninja
+
+    Note: This is style scss.
+
+*********************************************************************/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+01. Google font
+02. Typography
+    [ 2.1 Elements ]
+    [ 2.2 White Space ]
+    [ 2.3 Pealoader Css ]
+03 Section Title(With All Title)
+04 Button Style
+    [ 4.1 Button ]
+    [ 4.2 Section Scroll Button ]
+    [ 4.3 Fields ]
+    [ 4.4 social sharea ]
+05 Header Style
+    [5.1 Site Navigation]
+    [5.2 Home Wrapper]
+    [5.3 Sticky header]
+06 About Section
+07 Services Section
+08 Portfolio
+    [8.1 Portfolio Navigation]
+    [8.2 Singel Work]
+09 Testimonail Section
+10 Site Layout
+    [10.1 Skill Area]
+    [10.2 FanFact Area]
+    [10.3 Contact Form Area]
+    [10.4 Google Map]
+    [10.5 Different Version Style]
+11 Site Footer
+12 RTL Css
+--------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+# [Color codes]
+# grey (text): #6f6f6f
+# Dark grey (text): #303030
+# Black (headings, links) #000
+# Mid grey: #666666
+*/
+
+/*------------------------------------------------------------------
+[Color codes]
+
+Background: #ffffff (white)
+Header all:  #303030 (Dark grey)
+Footer:     #1E1E1E 
+
+a (standard):   #ACACAC 
+a (active): #000 (black)
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Typography]
+
+Body:      14px/24px 'Josefin Sans', sans-serif;
+-------------------------------------------------------------------*/
+
+// Imports
+@import "base/variables";
+@import "base/base";
+@import "components/section-title";
+@import "components/buttons-fields";
+@import "layouts/header";
+@import "layouts/about";
+@import "layouts/services";
+@import "layouts/portfolio";
+@import "layouts/testimonial";
+@import "layouts/layout";
+@import "layouts/footer";
+@import "layouts/rtl";

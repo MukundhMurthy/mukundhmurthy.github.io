@@ -1,0 +1,94 @@
+/*------------------------------------------------------------------
+    09 Testimonail Section
+*/
+
+.testimonial_carousel .owl-dots {
+    margin-top: 60px;
+    text-align: center;
+    > button {
+        background-color: rgba(0,0,0,0.3);
+        border-radius: 50%;
+        height: 12px;
+        margin: 0 4px;
+        width: 12px;
+        -webkit-transition: all 0.25s;
+        transition: all 0.25s;
+        &.active {
+            background-color: #000 !important;
+        }
+    }
+}
+.slingle_client {
+    border: 1px solid #ddd;
+    margin-top: 40px;
+    padding: 60px 30px 25px;
+    position: relative;
+    .client_header {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background-color: #f7f7f7;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        left: 70px;
+        position: absolute;
+        top: -40px;
+        .client_thumb > img {
+            border: 4px solid #ddd;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px !important;
+        }
+        .client_info {
+            padding: 0 15px;
+            > h3 {
+                color: #000;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 5px;
+                text-transform: capitalize;
+            }
+            > p {
+                color: #555;
+                font-size: 14px;
+                font-weight: normal;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .testimonial_carousel .owl-dots {
+       margin-top: 45px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .slingle_client {
+        padding: 55px 15px 20px;
+        .client_header .client_info {
+            > h3 {
+                font-size: 16px;
+                margin-bottom: 3px;
+            }
+            > p {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) { 
+    .slingle_client .client_header {
+        left: 25px;
+    }
+    .testimonial_carousel .owl-dots {
+        margin-top: 30px;
+        > button {
+            height: 10px;
+            margin: 0 3px;
+            width: 10px;
+        }
+    }
+}

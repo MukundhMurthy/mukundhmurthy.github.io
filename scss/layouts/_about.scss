@@ -1,0 +1,131 @@
+/*------------------------------------------------------------------
+    06 About Section
+*/
+
+.about_thumb {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    padding: 10px;
+    display: inline-block;
+    > img {
+        border-radius: 5px;
+    }
+}
+.about_info {
+    > h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    > h3 {
+        color: #3f3f3f;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    > p {
+        font-size: 16px;
+    }
+    .info_list {
+        border-top: 1px solid #ddd;
+        list-style: outside none none;
+        margin-bottom: 25px;
+        overflow: hidden;
+        padding-left: 0;
+        padding-top: 25px;
+        > li {
+            float: left;
+            padding: 8px 0;
+            width: 50%;
+            > strong {
+                color: #4d3f3f;
+                float: left;
+                font-size: 13px;
+                text-transform: uppercase;
+                width: 80px;
+            }
+            > span {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .about_thumb {
+        margin-right: 5px;
+    }
+    .about_info {
+        > p {
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+        .info_list {
+            padding-top: 17px;
+            margin-bottom: 20px;
+            > li > strong {
+                width: 65px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .about_thumb {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .about_info {
+        > p {
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .info_list {
+            padding-top: 25px;
+            margin-bottom: 25px;
+            > li > strong {
+                width: 80px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about_info {
+        > h2 {
+            font-size: 24px;
+        }
+        > h3 {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .about_info .info_list > li {
+        padding: 6px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) { 
+    .about_info {
+        > h2 {
+            font-size: 20px;
+            margin-bottom: 7px;
+        }
+        > h3 {
+            font-size: 13px;
+        }
+        > p {
+            font-size: 14px;
+        }
+        .info_list > li > strong {
+            font-size: 12px;
+            width: 70px;
+        }
+    }
+}

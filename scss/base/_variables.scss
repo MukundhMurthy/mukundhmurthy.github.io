@@ -1,0 +1,42 @@
+// Note: This is variables
+
+
+// Font family
+$font-family: 'Roboto', sans-serif;
+
+// Font-size
+$body-font-size: 16px;
+
+// Define colors
+$text-color: #333333;
+$primary-color: #4527a0; 
+$secondary-color: #FFBA00; 
+$border-color: #F1F1F1;
+$button-color: #F8C705;
+$color-white:#fff;
+$color-black:#000;
+$body-bg:#fff;
+$color-gray:#FBFBFB;
+$color-graywhite:#f6f6f6;
+$color-blue:#01B9FF;
+$color-purple:#BA78FE;
+$color-skyblue:#2B70BA;
+
+// Define body resets
+$body-line-height: 26px;
+$body-font-weight: 400;
+
+// Define input button height
+$input-button-height:50px;
+
+//Responsive Variables
+$large-device : 'only screen and (min-width: 1600px)';
+$laptop-device : 'only screen and (min-width: 1200px) and (max-width: 1599px)';
+$laptop-device-max : 'only screen and (max-width: 1599px)';
+$notebook-device : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$notebook-device-max : 'only screen and (max-width: 1199px)';
+$tablet-device:'only screen and (min-width: 768px) and (max-width: 991px)';
+$tablet-device-max : 'only screen and (max-width: 991px)';
+$large-mobile:'only screen and (min-width: 480px) and (max-width: 767px)';
+$large-mobile-max:'only screen and (max-width: 767px)';
+$small-mobile: 'only screen and (max-width: 479px)';

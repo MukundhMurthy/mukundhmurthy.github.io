@@ -1,0 +1,342 @@
+/*------------------------------------------------------------------
+    04 Button Style
+*/
+
+/* [ 4.1 Button ] */
+.btn {
+    -webkit-transition: all 0.35s ease-in-out 0.1s;
+    transition: all 0.35s ease-in-out 0.1s;
+}
+.btn:active,
+.btn:focus {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.125) inset;
+}
+.btn-default {
+    background-color: #fff;
+    border: 0 solid #fff;
+    border-radius: 30px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    height: 45px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    padding: 0 35px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+}
+.btn-default:hover,
+.btn-default:focus {
+    color: #000;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+.btn-primary {
+    background-color: #333;
+    color: #fff;
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #000;
+    color: #fff;
+}
+.btn-submit {
+    background-color: #9846df;
+    color: white;
+    font-weight: bold;
+    padding: 13px 35px;
+    text-transform: capitalize;
+    border-radius: 25px;
+    transition: all 0.2s ease-in 0s;
+    border: 1px solid #010101;
+    letter-spacing: 1px;
+}
+.btn-submit:hover {
+    color: #000;
+    background-color: white;
+}
+.btn-submit:focus {
+    color: #fff;
+}
+.btn-group .btn { 
+    border-radius: 25px !important;
+    margin: 5px !important;
+    min-width: 170px;
+}
+.btn-primary:active:not([disabled]):not(.disabled) {
+    background-color: #8445ee;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+.btn-group .btn:hover { 
+    color: #ffffff;
+    background-color: #8445ee;
+}
+.btn-group .btn-primary:hover { 
+    color: #8445ee;
+    background-color: #ffffff;
+}
+
+/* Mail Chip Buttom */
+.mail-chip-button {
+    position: absolute;
+    background-color: #bebebe;
+    border: 0 none;
+    border-radius: 25px;
+    color: #202020;
+    height: 42px;
+    padding: 0 35px;
+    right: 2px;
+    top: 2px;
+    font-size: 16px;
+    -webkit-transition: color 0.18s;
+    transition: color 0.18s;
+}
+.mail-chip-button:hover {
+    color: #1981EA;
+}
+
+
+/* [4.2 Section Scroll Button] */
+#section_scroller_button {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    background-color: #333;
+    border-radius: 50%;
+    bottom: 50px;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    height: 45px;
+    line-height: 50px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 45px;
+    z-index: 999;
+    -webkit-transition: ease-in 0.3s;
+    transition: ease-in 0.3s;
+    &:hover {
+        background-color: #000;
+    }
+    >.fa {
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    &.rotate > .fa {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+    &.btn-hide {
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    &.btn-show {
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        bottom: 35px;
+    }
+}
+
+/* [ 4.3 Fields ] */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+  padding: 10px 15px !important;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+    outline: none;
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent url("images/select-bg.png") no-repeat scroll 95% 50%;
+}
+select option[selected] {
+    color: white;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    -webkit-text-fill-color: #7a7a7a !important;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    -webkit-text-fill-color: #7a7a7a !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    transition: background-color 5000s ease-in-out 0s;
+}
+input,
+select,
+textarea {
+    margin: 0;
+    border: none;
+    vertical-align: baseline;
+    font-size: 100%;
+    font-weight: 400;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    height: 45px;
+}
+textarea { 
+    min-height: 150px;
+    border-radius: 5px;
+}
+/* Form Contoller */
+.form-controller {
+    border: 0 none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 transparent inset;
+    background-color: #f7f7f7;
+    width: 100%;
+}
+.form-controllar:focus {
+    border-color: none;
+    box-shadow: none;
+}
+/* Contact Form Field */
+#mc-form {
+    border: 1px solid #999999;;
+    border-radius: 25px;
+    height: 48px;
+    position: relative;
+}
+#mc-form label {
+    color: #000;
+    bottom: -40px;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100%;
+    left: 0;
+    display: none;
+}
+#mc-form .error {        
+    color: red;    
+}
+#mc-form .form-controller {
+    background-color: transparent;
+    width: 68%;
+    color: #333;
+    height: inherit;
+}
+#contact_form .form-controllar {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 100%;
+    background-color: #fff;
+}
+#contact_form textarea {
+    padding: 15px;
+}
+#contact_form p {
+    margin-bottom: 15px;
+}
+.error {
+    color: red;
+}
+.success {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px;
+    color: green;
+}
+
+// Tablet layout
+@media #{$tablet-device}{
+    .down-button-group{
+        text-align:center;
+    }
+}
+// Large mobile layout
+@media #{$large-mobile-max}{
+    .down-button-group .btn-default {
+        margin: 0 5px;
+        padding: 12px 35px;
+    }
+    .btn-about {
+        bottom: -30px;
+        font-size: 16px;
+    }
+}
+// Small mobile layout
+@media #{$small-mobile}{
+    .down-button-group{
+        text-align:center;
+        a{
+            padding:0px;
+            &:last-child{
+                padding-top:15px;
+            }
+        }
+    }
+}
+
+
+/* [ 4.4 social sharea ] */
+.social-btn{
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    width: 100%;
+    padding: 0;
+    &.large{
+        height: 48px;
+        line-height: 48px;
+        padding-left: 7px;
+    }
+    + .social-btn {
+        margin-top: 10px;
+    }
+    i {
+        color: #fff;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 15px;
+        position: relative;
+        text-align: center;
+        width: 37px;
+        &:after {
+            background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+            content: "";
+            height: 80%;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1px;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) { 
+    .btn-default {
+        font-size: 12px;
+        padding: 0 30px;
+    }
+}
