@@ -1974,7 +1974,7 @@ textarea {
 
 .single_work .work_thumb {
   overflow: hidden;
-  display: block;
+  display: initial;
 }
 
 .single_work .work_thumb > img {
