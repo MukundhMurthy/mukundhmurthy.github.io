@@ -1970,16 +1970,19 @@ textarea {
   overflow: hidden;
   margin-bottom: 30px;
   display: inline-block;
+  box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
 }
 
 .single_work .work_thumb {
   overflow: hidden;
   display: initial;
+  box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
 }
 
 .single_work .work_thumb > img {
   -webkit-transition: all 0.35s ease 0s;
   transition: all 0.35s ease 0s;
+  box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
 }
 
 .single_work .overlay_icon {
@@ -1991,6 +1994,7 @@ textarea {
   position: absolute;
   top: 10px;
   width: calc(100% - 20px);
+  box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
 }
 
 .single_work .overlay_icon > .fa {
@@ -2009,6 +2013,7 @@ textarea {
   left: calc(50% - 22px);
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
 }
 
 .single_work .work_info {
@@ -2021,6 +2026,7 @@ textarea {
   position: absolute;
   width: 100%;
   text-align: left;
+  box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
 }
 
 .single_work .work_info > h3 {
@@ -2047,6 +2053,7 @@ textarea {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
 }
 
 .single_work:hover .work_thumb > img {
