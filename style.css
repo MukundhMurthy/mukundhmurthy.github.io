@@ -2302,7 +2302,7 @@ textarea {
 .single_contact_info {
   background-color: #fff;
   box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
-  padding: 40px 20px 35px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
   -webkit-box-align: center;
