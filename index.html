@@ -46,6 +46,10 @@
         #hi:hover {
             box-shadow: 5px 10px 13px rgb(3,187,140,0.6); 
         }
+
+        .fade_in {
+            opacity:0;
+        }
     </style>
     <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us5.list-manage.com","uuid":"9d627131c30f3b1d28bd9cbdf","lid":"6dc4eb0d70","uniqueMethods":true}) })</script>
 </head>
@@ -156,7 +160,7 @@
         <!--~~~~~ Start About Area ~~~~~-->
         <section id="about" class="about_area section_scroll ptb-110" data-scroll-index="1">
             <div class="container">
-                <div class="row justify-content-center">
+                <div id="helloo" class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="row">
                             <div class="col-lg-5">
@@ -187,7 +191,7 @@
         <!--~./ end about area ~-->
         <!--~~~~~ What I'm Working On ~~~~~-->
         <div class="service_area">
-            <div class="container">
+            <div class="container fade_in">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="section_title text-center mb-70">
@@ -236,11 +240,39 @@
                  
                 </div>
             </div>
+            <script src="js/vendor/jquery-v3.2.1.min.js"></script>
+                $(function(){  // $(document).ready shorthand
+                  $('.helloo').fadeIn('slow');
+                });
+
+                $(document).ready(function() {
+
+                    /* Every time the window is scrolled ... */
+                    $(window).scroll( function(){
+
+                        /* Check the location of each desired element */
+                        $('.fade_in').each( function(i){
+
+                            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+                            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                            /* If the object is completely visible in the window, fade it it */
+                            if( bottom_of_window > bottom_of_object ){
+
+                                $(this).animate({'opacity':'1'},1500);
+
+                            }
+
+                        }); 
+
+                    });
+
+                });
         </div>
         
         <!--~~~~~ Start Skill Area ~~~~~-->
         <section style = "font-family:Montserrat;" class="skill_area ptb-110 bg_gray">
-            <div class="container">
+            <div class="container fade_in">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="skill_content">
@@ -304,7 +336,7 @@
         
         <!--~~~~~ Start Work Area ~~~~~-->
         <section style = "font-family:Montserrat;" id="work" class="work_area section_scroll ptb-110" data-scroll-index="3">
-            <div class="container">
+            <div class="container fade_in">
                 <div class="row">
                     <div class="col-12">
                         <div class="section_title_area text-center pb-70">
@@ -420,7 +452,7 @@
         <!--~~~~~ Start Contact Area ~~~~~-->
         <section style = "font-family:Montserrat;" id="contact" class="contact_area section_scroll pt-110" data-scroll-index="5">
             <div style = "font-family:Montserrat;" class="container">
-                <div class="row">
+                <div class="row fade_in">
                     <div class="col-12">
                         <div class="section_title_area text-center pb-70">
                             <h2>Contact</h2>
