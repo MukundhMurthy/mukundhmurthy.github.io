@@ -35,6 +35,21 @@
     
     <!-- Modernizr js-->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+        .col-xl-4 col-md-4 {
+            transition: box-shadow .3s;
+            width: 300px;
+            height: 500px;
+            margin: 50px;
+            border-radius:10px;
+            border: 1px solid #000;
+            background: #fff;
+            float: left;  
+        }
+        .col-xl-4 col-md-4:hover {
+            box-shadow: 5px 10px 13px rgb(255, 255, 255,0.6); 
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".navigation_area">
