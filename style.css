@@ -2108,7 +2108,7 @@ textarea {
   box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
 }
 
-.single_work:hover .work_thumb > img {
+.single_work:hover {
   opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   -webkit-transform: scale(1.1);
