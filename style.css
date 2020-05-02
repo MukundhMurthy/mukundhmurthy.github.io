@@ -1260,16 +1260,44 @@ textarea {
     animation: myfirst 5s ;
   }
 
+.maculax:hover{
+    background: url('hivmovie_690_optix.jpg') no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-animation: myfirst 5s ; /* Chrome, Safari, Opera */
+    animation: myfirst 5s ;
+  }
+
+.illumina:hover{
+    background: url('SpliceAI.jpg') no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-animation: myfirst 5s ; /* Chrome, Safari, Opera */
+    animation: myfirst 5s ;
+  }
+
   /* Chrome, Safari, Opera */
   @-webkit-keyframes myfirst {
     from {opacity: 0.2;}
     to {opacity: 1;}
+    from {color: black;}
+    to {color: white;}
   }
 
   /* Standard syntax */
   @keyframes myfirst {
     from {opacity: 0.2;}
     to {opacity: 1;}
+    from {color: black;}
+    to {color: white;}
   }
 
 .header_social_share:before {
