@@ -2031,10 +2031,11 @@ textarea {
   box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
 }
 
-.single_work .work_thumb > img {
+.single_work > img {
   -webkit-transition: all 0.35s ease 0s;
   transition: all 0.35s ease 0s;
   box-shadow: 0 0 18px rgba(69, 39, 160, 0.1);
+  opacity: 0.8;
 }
 
 .single_work .overlay_icon {
