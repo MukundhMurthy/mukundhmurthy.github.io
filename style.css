@@ -1248,16 +1248,13 @@ textarea {
   transform: translateY(-50%);
 }
 
-.covid:hover{
+.covid {
     background: url('Coronavirus_illustration.jpg') no-repeat center center fixed;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    -webkit-animation: myfirst 5s ; /* Chrome, Safari, Opera */
-    animation: myfirst 5s ;
   }
 
 .maculax:hover{
