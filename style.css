@@ -1250,7 +1250,7 @@ textarea {
 
 .covid {
     background: url('Coronavirus_illustration.jpg') no-repeat center center fixed;
-
+    filter: brightness(50%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1259,26 +1259,11 @@ textarea {
 
 .maculax:hover{
     background: url('hivmovie_690_optix.jpg') no-repeat center center fixed;
-
+    filter: brightness(50%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    -webkit-animation: myfirst 5s ; /* Chrome, Safari, Opera */
-    animation: myfirst 5s ;
-  }
-
-.illumina:hover{
-    background: url('SpliceAI.jpg') no-repeat center center fixed;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    -webkit-animation: myfirst 5s ; /* Chrome, Safari, Opera */
-    animation: myfirst 5s ;
   }
 
   /* Chrome, Safari, Opera */
