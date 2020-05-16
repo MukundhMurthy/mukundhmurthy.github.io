@@ -1257,7 +1257,7 @@ textarea {
     background-size: cover;
   }
 
-.maculax:hover{
+.maculax {
     background: url('hivmovie_690_optix.jpg') no-repeat center center fixed;
     filter: brightness(50%);
     -webkit-background-size: cover;
