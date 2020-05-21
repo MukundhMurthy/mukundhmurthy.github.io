@@ -1279,7 +1279,7 @@ textarea {
 
 .image-box__content {
   position: absolute;
-
+  padding: 50 px;
   z-index: 3;
   width: auto;
   
