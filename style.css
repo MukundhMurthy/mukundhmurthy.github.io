@@ -1249,23 +1249,31 @@ textarea {
 }
 
 .covid {
-    background: url('Coronavirus_illustration.jpg') no-repeat center center fixed;
-    filter: brightness(50%);
+    background: rgba(0, 0, 0, 0.3);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
+
+.covid:after {
+    background: url('Coronavirus_illustration.jpg') no-repeat center center fixed;
+    
+
+
+
 
 .maculax {
-    background: url('hivmovie_690_optix.jpg') no-repeat center center fixed;
-    filter: brightness(50%);
+    background: rgba(0, 0, 0, 0.3);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
 
+.maculax:after {
+    background: url('asd.png') no-repeat center center fixed;
+    
   /* Chrome, Safari, Opera */
   @-webkit-keyframes myfirst {
     from {opacity: 0.2;}
