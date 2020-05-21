@@ -1262,6 +1262,7 @@ textarea {
   background-position: center center;
   background-repeat: no-repeat;
   background-image: var(--image-url);
+  position: absolute
 
   z-index: 1
 }
@@ -1273,7 +1274,7 @@ textarea {
 
 .image-box__background,
 .image-box__overlay {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -1281,7 +1282,7 @@ textarea {
 }
 
 .image-box__content {
-  position: relative;
+  position: absolute;
 
   z-index: 3;
   width: auto;
@@ -1295,6 +1296,7 @@ textarea {
 
 .image-box__overlay {
   background: rgba(0, 0, 0, 0.5);
+  position: absolute;
 
   z-index: 2;
 }
