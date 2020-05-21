@@ -1250,7 +1250,7 @@ textarea {
 
 .covid {
     background: url('Coronavirus_illustration.jpg') no-repeat center center fixed;
-    filter: brightness(50%);
+   
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
