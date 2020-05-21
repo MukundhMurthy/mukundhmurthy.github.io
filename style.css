@@ -1257,6 +1257,48 @@ textarea {
     background-size: cover;
   }
 
+.image-box__background {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: var(--image-url);
+
+  z-index: 1
+}
+
+.image-box {
+  position: relative;
+}
+
+
+.image-box__background,
+.image-box__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.image-box__content {
+  position: relative;
+
+  z-index: 3;
+  
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-box__overlay {
+  background: rgba(0, 0, 0, 0.5);
+
+  z-index: 2;
+}
+
+
 .maculax {
     background: url('hivmovie_690_optix.jpg') no-repeat center center fixed;
     filter: brightness(50%);
