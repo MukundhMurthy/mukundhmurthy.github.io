@@ -1248,14 +1248,14 @@ textarea {
   transform: translateY(-50%);
 }
 
-.covid {
+/*.covid {
     
    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+  }*/
 
 .image-box__background {
   background-size: cover;
@@ -1290,6 +1290,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .image-box__overlay {
