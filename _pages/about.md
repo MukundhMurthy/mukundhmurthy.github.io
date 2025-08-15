@@ -4,12 +4,6 @@ title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
-<style>
-  footer {
-    display: none !important;
-  }
-</style>
-
 profile:
   align: right
   image: Mukundh_Murthy.jpg
@@ -44,4 +38,4 @@ During my PhD, I hope to uncover how genetic variation cascades through layers o
 
 Outside of science, I love [traveling](/travel/), [reading](https://www.goodreads.com/review/list/132281867-mukundh-murthy?shelf=currently-reading) biographies (especially of physician-scientists), biking, folding origami, and hiking/backpacking.
 
-I love learning—whether it’s about science or different perspectives, philosophies, and stories—and always enjoy a deep conversation – you can reach me at mukundh[dot]murthy[at]icloud[dot]com.
+I love learning—whether it’s about science or different perspectives, philosophies, and stories—and always enjoy a deep conversation – you can reach me at mukundh[dot]murthy[at]icloud[dot]com
