@@ -6,39 +6,26 @@ nav: true
 nav_order: 2
 ---
 
-# Travel
+# Travel Map
 
-I love traveling and have been fortunate to visit 15 countries so far. Here are some of the places I've explored:
-
-## Countries Visited
-
-- **United States** - My home country
-- **Canada** - Beautiful landscapes and friendly people
-- **Mexico** - Rich culture and amazing food
-- **United Kingdom** - History and academic traditions
-- **France** - Art, culture, and cuisine
-- **Germany** - Engineering marvels and history
-- **Italy** - Ancient ruins and delicious food
-- **Spain** - Vibrant culture and architecture
-- **Netherlands** - Bicycles and tulips
-- **Belgium** - Chocolate and medieval towns
-- **Switzerland** - Stunning Alpine scenery
-- **Austria** - Music and mountains
-- **Czech Republic** - Beautiful Prague
-- **Hungary** - Budapest's thermal baths
-- **Japan** - Technology and tradition
-
-## Travel Philosophy
-
-I believe travel is one of the best ways to learn about different cultures, perspectives, and ways of life. Each trip has taught me something new about the world and about myself.
-
-## Future Destinations
-
-I'm always planning my next adventure. Some places on my bucket list include:
-- New Zealand (for the natural beauty)
-- Australia (for the wildlife)
-- South Korea (for the technology and culture)
-- Iceland (for the landscapes)
-- Peru (for Machu Picchu)
-
-*More details and photos coming soon!*
+<div class="row justify-content-center">
+  <div class="col-lg-8 col-md-10">
+    <div class="card shadow-sm">
+      <div class="card-body text-center">
+        <h5 class="card-title mb-3">My Travel Journey</h5>
+        <p class="card-text text-muted mb-4">Explore the places I've visited around the world</p>
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.google.com/maps/d/u/0/embed?mid=1gWKXuYZzZtV0IaiNrJiO4dOQpZvhtpo&ehbc=2E312F&noprof=1"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -6,7 +6,7 @@ nav_order: 3
 dropdown: true
 children:
   - title: bookshelf
-    permalink: /books/
+    permalink: https://www.goodreads.com/review/list/132281867-mukundh-murthy?shelf=currently-reading
   - title: divider
   - title: blog
     permalink: /blog/
