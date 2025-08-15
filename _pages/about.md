@@ -38,4 +38,4 @@ During my PhD, I hope to uncover how genetic variation cascades through layers o
 
 Outside of science, I love [traveling](/travel/), [reading](https://www.goodreads.com/review/list/132281867-mukundh-murthy?shelf=currently-reading) biographies (especially of physician-scientists), biking, folding origami, and hiking/backpacking.
 
-I love learning—whether it’s about science or different perspectives, philosophies, and stories—and always enjoy a deep conversation – you can reach me at mukundh[dot]murthy[at]icloud[dot]com
+I love learning—whether it’s about science or different perspectives, philosophies, and stories — and always enjoy a deep conversation – you can reach me at mukundh[dot]murthy[at]icloud[dot]com
