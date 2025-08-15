@@ -9,35 +9,21 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-travel",
-          title: "travel",
+  },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/bookshelf/";
+          },
+        },{id: "nav-travel-map",
+          title: "Travel map",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/travel/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://www.goodreads.com/review/list/132281867-mukundh-murthy?shelf=currently-reading";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "dropdown-travel",
-              title: "travel",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/travel/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
