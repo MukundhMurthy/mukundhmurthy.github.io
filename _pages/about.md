@@ -36,6 +36,6 @@ I then spent two years at the Broad Institute in the [Macosko Lab](https://macos
 
 During my PhD, I hope to uncover how genetic variation cascades through layers of emergence to influence disease—especially within the immune system. I’m excited to explore both computational approaches for identifying genomic drivers of emergent phenotypes, and experimental tools to functionally probe them.
 
-Outside of science, I love traveling (I’ve been to 15 countries [check out my travel page here](/travel/)), reading biographies (especially of physician-scientists), biking, folding origami, and hiking/backpacking.
+Outside of science, I love [traveling](/travel/), [reading](https://www.goodreads.com/review/list/132281867-mukundh-murthy?shelf=currently-reading) biographies (especially of physician-scientists), biking, folding origami, and hiking/backpacking.
 
-I love learning—whether it’s about science or different human perspectives, philosophies, and stories—and always enjoy a deep conversation – you can reach me at mukundh[dot]murthy[at]icloud[dot]com
+I love learning—whether it’s about science or different perspectives, philosophies, and stories—and always enjoy a deep conversation – you can reach me at mukundh[dot]murthy[at]icloud[dot]com
