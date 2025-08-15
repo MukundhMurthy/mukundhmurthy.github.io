@@ -28,7 +28,7 @@ social: false # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I’m Mukundh, an incoming PhD student in the Genetics program at Stanford University. I’m fascinated by biological emergence—how trillions of individual cells give rise to the complex, self-regulating systems that keep us alive and thriving. From genome regulation shaped by chromatin accessibility and regulatory elements, to tissue development orchestrated by cell-cell signaling, to consciousness—I’m captivated by how coordinated behaviors emerge from molecular parts.
+Hi! I’m Mukundh, an incoming PhD student in the Genetics program at Stanford University with a BS in Computer Science from the University of Michigan. I’m fascinated by biological emergence—how trillions of individual cells give rise to the complex, self-regulating systems that keep us alive and thriving. From genome regulation shaped by chromatin accessibility and regulatory elements, to tissue development orchestrated by cell-cell signaling, to consciousness—I’m captivated by how coordinated behaviors emerge from molecular parts.
 
 During high school and college, I interned at startups like [Cellarity](https://cellarity.com/), [Asimov](https://www.asimov.com/), and [Octant Biosciences](https://www.octant.bio/). What drew me to these companies was their focus on biological emergence—going beyond the classic single target rational drug design model of discovery.
 
